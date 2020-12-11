@@ -1,37 +1,37 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www/sitemap.org/schemas/sitemap/0.9">
     <url>
-        <loc>/index.html</loc>
+        <loc>http://ilijapopovic10020.github.io/mici.fitnessandhealth/index.html</loc>
         <lastmod>2020-12-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>/trening.html</loc>
+        <loc>http://ilijapopovic10020.github.io/mici.fitnessandhealth/trening.html</loc>
         <lastmod>2020-12-11</lastmod>
         <changefreq>weakly</changefreq>
         <priority>0.95</priority>
     </url>
     <url>
-        <loc>/ishrana.html</loc>
+        <loc>http://ilijapopovic10020.github.io/mici.fitnessandhealth/ishrana.html</loc>
         <lastmod>2020-12-11</lastmod>
         <changefreq>weakly</changefreq>
         <priority>0.95</priority>
     </url>
     <url>
-        <loc>/kontakt.html</loc>
+        <loc>http://ilijapopovic10020.github.io/mici.fitnessandhealth/kontakt.html</loc>
         <lastmod>2020-12-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>/prijava.html</loc>
+        <loc>http://ilijapopovic10020.github.io/mici.fitnessandhealth/prijava.html</loc>
         <lastmod>2020-12-11</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/autor.html</loc>
+        <loc>http://ilijapopovic10020.github.io/mici.fitnessandhealth/autor.html</loc>
         <lastmod>2020-12-11</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
