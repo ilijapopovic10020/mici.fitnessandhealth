@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sr-Latn-RS">
+	<head>
+		<title>Mici Fitness&amp;Health</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="trening, fitness, dijeta, ishrana, suplementacija, žene, izgradnja mišića, redukcija telesne težine, recepti" />
+		<meta name="description" content="Ukoliko ste zinteresovani za saradnju ovde se možete prijaviti" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/9e14ef9717.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+		<link rel="shortcut icon" href="../assets/images/icon/logo.ico" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Pocetna</a></li>
+				<li><a href="trening.html">Trening</a></li>
+				<li><a href="ishrana.html">Ishrana</a></li>
+				<li class="active"><a href="prijava.html">Prijava</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="autor.html">O autor</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="wrapper">
+				<div id="prijava">
+					<h1>Prijava</h1>
+					<form action="" metod="post">
+						<div class="form-group input-group">
+							<label for="ime">Ime:</label><br />
+							<input type="text" name="ime" id="ime" /><br />
+						</div>
+						<div class="form-group input-group">
+							<label for="prezime">Prezime:</label><br />
+							<input type="text" name="prezime" id="prezime" /><br />
+						</div>  
+						<div class="form-group input-group">  
+							<label for="email">Email:</label><br />
+							<input type="email" name="email" id="email" /><br />
+						</div>
+						<div class="form-group">
+							<p>Pol:</p>
+							<input type="radio" name="gender" id="male" />
+							<label for="male">Muški</label>
+							<input type="radio" name="gender" id="female" />
+							<label for="female">Ženski</label>
+						</div>
+						<div class="form-group">
+							<p>Nivo fizičke spreme:</p>
+							<input type="radio" name="lvl" id="početnik" />
+							<label for="pocetnik">Početnik</label><br />
+							<input type="radio" name="lvl" id="srednji" />
+							<label for="srednji">Srednji</label><br />
+							<input type="radio" name="lvl" id="napredni" />
+							<label for="napredni">Napredni</label><br />
+						</div>
+						<div class="form-group">
+							<p>Cilj treninga:</p>
+							<input type="radio" name="goal" id="goal1" />
+							<label for="redukcija">Redukcija telesne težine</label><br />
+							<input type="radio" name="goal" id="goal2" />
+							<label for="izgradnja">Izhradnja mišićne mase</label><br />
+							<input type="radio" name="goal" id="goal3" />
+							<label for="zdravstveno">zdravstveno usmeren fitnes</label><br />
+						</div>
+						<div class="form-group input-group">
+							<label for="planishrane">Plan ishrane:</label>
+							<select name="planishrane" id="planishrane"> 
+								<option value="0" selected="selected">Izaberite...</otion> 
+								<option value="1">Nedeljni</option>
+								<option value="2">Tronedeljni</option>
+								<option value="3">Šestonedeljni</option>
+								<option value="4">Bez plana</option>
+							</select>
+						</div>
+						<div class="form-group input-group">
+							<label for="amijent_treniranja">Ambijent treniranja:</label>
+							<select name="amijent_treniranja" id="amijent_treniranja">
+								<option value="0" selected="selected">Izaberite...</option>
+								<optgroup label="Kućni trening">
+									<option value="1">Sa opremom</option>
+									<option value="2">Bez opreme</option>
+								</optgroup>							
+									<option value="3">Teretana</option>					
+							</select>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Prijavi" />
+							<input type="reset" value="Poništi" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<article>
+				<p>Copyright &COPY; 2020 Mici Fitness&amp;Helth</p>
+				<ul>
+					<li>
+						<a href="http://www.facebook.com/" target="_blank">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.instagram.com/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.twitter.com/" target="_blank">
+							<i class="fab fa-twitter"></i>
+						</a>						
+					</li>
+					<li>
+						<a href="http://www.youtube.com/" target="_blank">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+				</ul>
+				<ul>
+					<li class="rss">
+						<a href="ress.xml" target="_blank">
+							<i class="fas fa-rss"></i>
+						</a>
+					</li>
+					<li>
+						<a href="sitemap.xml" target="_blank">
+							<i class="fas fa-sitemap"></i>
+						</a>
+					</li>
+				</ul>
+			</article>
+			<article>
+				<h3>Kontakt:</h3>
+				<p>
+					<i class="mr5 fas fa-phone"></i>
+					"+381 63203040"
+				</p>
+				<p>
+					<i class="mr5 fas fa-envelope"></i>
+					"+381 63203040"
+				</p>
+			</article>
+		</footer>
+	</body>
+</html>

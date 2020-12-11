@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+}
+body{
+    background-image: url('../images/background/header2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+}
+main{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.cleaner{
+    clear: both;
+}
+a{
+    color: #fff;
+}
+i{
+    font-size: 40px;
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+h1, h2, h3{
+    color: #fff;
+    font-weight: 500;
+}
+.active{
+    color: #fff;
+}
+nav{
+    width: 100%;
+    background-color: #4e0178;
+	padding: 20px 0px;
+	margin: 0px auto;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+	text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin: 0px 15px;
+    font-weight: 500px;
+}
+
+nav ul li a:hover {
+    width: 150px;
+    border: 5px solid #8100c7;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.6s ease;
+}
+.wrapper{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.72);
+    margin: 0px auto;
+    text-align: center;
+}
+
+.one_pic{
+    width: 50%;
+    margin: 0px auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#social_media{
+    width: 50%;
+    float: left;
+}
+#kontakt{
+    background-image: url('../images/nightpic.png');
+}
+#wautor{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+#autor{
+    background-image: url(../images/autor.png);
+    height: 240px;
+    width: 50%;
+    margin: 0px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+#infoautora{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+#prijava h1{
+    text-align: center;
+}
+#Prijava:first-child{
+	margin-top: 40px;
+}
+p{
+	font-size:20px;
+}
+.form-group{
+	width: 30%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 5px 0px;
+}
+.input-group > * {
+	display: block;
+}
+label {
+    font-size: 20px;
+    color: #fff;
+}
+input {
+    font-size: 18px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+	padding: 10px;
+	width: 100%;
+}
+input[type="submit"], input[type="reset"], input[type="button"]{
+	padding: 5px 15px;
+	color: #fff;
+	background-color: #4e0178;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover{
+	background-color: #fff;
+	color: #d698f5;
+}
+select{
+	padding: 5px 15px;
+	font-size: 18px;
+}
+#logo{
+    border-image: url('../images/background/Background.jpg');
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+#logo h3{
+    transition: 2s, 2s, 2s;
+}
+.pic50{
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    height: 500px;
+    float: left;
+    width: 50%;
+}
+#yoga_group{
+    background-image:url('../images/yoga_group.jpg');
+    
+}
+#deadlift{
+    background-image:url('../images/deadlift.jpg');
+}
+.fonthand{
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 100px;
+    margin: 0px auto;
+    width: 50%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+.text100{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.text50{
+    margin-top: 5%;
+    width: 50%;
+    float: left;
+}
+#maraton1{
+    background-image: url(../images/maraton1.png);
+    width: 25%;
+    margin-left: 17%;
+}
+#weightloss{
+    background-image: url(../images/weightloss.jpg);
+    width: 45%;
+    margin-left: 5%;
+}
+footer{
+    background-color: #4e0178;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+footer article{
+    width: 30%;
+    display: inline-block;
+}
+footer article a{
+    font-size: 18px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+footer article i{
+    font-size: 25px;
+    
+}
+footer p{
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+footer ul{
+    margin-top: 25px;
+}
+footer li{
+    display: inline-block;
+    margin-right: 15px;
+}
+#palacinke{
+    background-image: url('../images/palacinka.jpeg');
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#recept1 h1{
+    margin-top: 30%;
+    font-size: 50px;
+}
+#recept1 p{
+    font-size: 40px;
+}
+#piletina{
+    background-image: url('../images/piletina.jpeg');
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#recept2 h1{
+    font-size: 50px;
+}
+#recept2 h1:first-child{
+    margin-top: 25%;
+    
+}
+#recept2 p{
+    font-size: 40px;
+}
+#cizkejk{
+    background-image: url('../images/cizkejk.jpeg');
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#recept3 h1{
+    margin-top: 20%;
+    font-size: 50px;
+}
+#recept3 p{
+    font-size: 40px;
+}
+#zelpalacinke{
+    background-image: url('../images/zelpalacinke.jpeg');
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#recept4 h1{
+    font-size: 50px;
+}
+#recept4 h1:first-child{
+    margin-top: 25%;
+    
+}
+#recept4 p{
+    font-size: 40px;
+}
+#jog{
+    background-image: url('../images/jog.jpg');
+    margin-left: 5%;
+    width: 45%;
+}
+#aerobic{
+    background-image: url('../images/aerobic.jpg');
+    margin-left: 5%;
+    width: 45%;
+}
+#homeworkout{
+    background-image: url('../images/homeworkout.jpg');
+    margin-right: 5%;
+    width: 45%;
+}
+#gym{
+    background-image: url('../images/gym.jpg');
+    margin-left: 5%;
+    width: 45%;
+}

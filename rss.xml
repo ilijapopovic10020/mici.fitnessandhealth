@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Mici Fittnes and Health</title>
+        <link>/index.html</link>
+        <description>Pravi sajt za trening i ishranu.</description>
+        <item>
+        <title>Vrste treninga</title>
+        <link>/trening.html</link>
+        <description>Pogledajte vrste treninga koje vam nudimo.</description>
+        </item>
+        <title>Ishrana i zdrava hrana</title>
+        <link>/ishrana.html</link>
+        <description>Pogledajte nase ukusne i zdrave obroke koje mozete spremiti vrlo lako</description>
+        </item>
+    </channel>
+</rss>
